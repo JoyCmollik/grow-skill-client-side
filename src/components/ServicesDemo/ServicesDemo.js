@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import useServices from '../../hooks/useServices/useServices';
 import Service from '../Service/Service';
+import Title from '../Title/Title';
 
 const ServicesDemo = () => {
 	const [services] = useServices();
@@ -19,13 +20,11 @@ const ServicesDemo = () => {
 			<div className='container mx-auto py-5 lg:py-20'>
 				{/* title */}
 				<div className='flex justify-between'>
-					<div className=''>
-						<p className='text-brand text-xl'>Services</p>
-						<h2 className='text-3xl'>
-							There are many services that <br /> you can take
-							from us.
-						</h2>
-					</div>
+					<Title
+						subTitle='Services'
+						mainTitle='There are many services that you can take
+							from us.'
+					/>
 					<Link to='/services'>
 						<button className='text-lg text-primary'>
 							See All

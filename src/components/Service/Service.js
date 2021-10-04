@@ -24,8 +24,8 @@ const Service = (props) => {
 
 	return (
 		<article
-			className='flex flex-col justify-between bg-white rounded-lg shadow'
-			style={{ width: '355px' }}
+			className='flex flex-col justify-between bg-white rounded-lg shadow-lg'
+			style={{ width: '340px' }}
 		>
 			<div className='w-5/6 mx-auto'>
 				<img src={service_img} alt='service' className='object-cover' />

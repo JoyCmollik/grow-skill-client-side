@@ -33,6 +33,13 @@ const NavLinks = () => {
 			>
 				Blogs
 			</NavLink>
+			<NavLink
+				activeClassName='text-brand border-brand'
+				to='/cart'
+				className='px-2 py-1 hover:text-primary transition-colors duration-200 border-b border-transparent'
+			>
+				Cart
+			</NavLink>
 		</nav>
 	);
 };
