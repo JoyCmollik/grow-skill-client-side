@@ -7,7 +7,6 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import Blogs from './components/Blogs/Blogs';
 import NotFound from './components/NotFound/NotFound';
-import Cart from './components/Cart/Cart';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -30,9 +29,6 @@ function App() {
 					</Route>
 					<Route path='/blogs'>
 						<Blogs />
-					</Route>
-					<Route path='/cart'>
-						<Cart />
 					</Route>
 					<Route path='*'>
 						<NotFound />
