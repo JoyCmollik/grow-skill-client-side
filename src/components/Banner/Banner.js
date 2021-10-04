@@ -8,7 +8,7 @@ const Banner = () => {
 			<div className='container mx-auto grid grid-cols-2 justify-between items-center'>
 				{/* left banner */}
 				<div className='space-y-4'>
-					<h1 className='text-4xl font-light capitalize text-primary'>
+					<h1 className='text-4xl font-light capitalize text-brand'>
 						Start Today
 					</h1>
 					<h1 className='text-5xl font-bold uppercase'>

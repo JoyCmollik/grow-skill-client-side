@@ -5,7 +5,7 @@ const NavLinks = () => {
 	return (
 		<nav className='flex items-center'>
 			<NavLink
-				activeClassName='text-primary border-primary'
+				activeClassName='text-brand border-brand'
 				exact
 				to='/'
 				className='px-2 py-1 hover:text-primary transition-colors duration-200 border-b border-transparent'
@@ -13,21 +13,21 @@ const NavLinks = () => {
 				Home
 			</NavLink>
 			<NavLink
-				activeClassName='text-primary border-primary'
+				activeClassName='text-brand border-brand'
 				to='/about'
 				className='px-2 py-1 hover:text-primary transition-colors duration-200 border-b border-transparent'
 			>
 				About Us
 			</NavLink>
 			<NavLink
-				activeClassName='text-primary border-primary'
+				activeClassName='text-brand border-brand'
 				to='/services'
 				className='px-2 py-1 hover:text-primary transition-colors duration-200 border-b border-transparent'
 			>
 				Services
 			</NavLink>
 			<NavLink
-				activeClassName='text-primary border-primary'
+				activeClassName='text-brand border-brand'
 				to='/blogs'
 				className='px-2 py-1 hover:text-primary transition-colors duration-200 border-b border-transparent'
 			>

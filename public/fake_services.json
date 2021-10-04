@@ -1,0 +1,112 @@
+[
+	{
+		"id": 1001,
+		"service_title": "become a complete driver with passion and dignity",
+		"service_category": "driving",
+		"service_duration": 30,
+		"service_students": 751,
+		"service_img": "https://i.ibb.co/5THKLwT/1001.png",
+		"service_rating": 3.5,
+		"service_rating_count": 194,
+		"service_price": 299
+	},
+	{
+		"id": 1002,
+		"service_title": "learn cycling with trust and safety in just few days",
+		"service_category": "cycling",
+		"service_duration": 10,
+		"service_students": 480,
+		"service_img": "https://i.ibb.co/NSpBg4s/1002.png",
+		"service_rating": 4,
+		"service_rating_count": 115,
+		"service_price": 99
+	},
+	{
+		"id": 1003,
+		"service_title": "let us help you learn riding motor-driven cycles",
+		"service_category": "riding",
+		"service_duration": 20,
+		"service_students": 197,
+		"service_img": "https://i.ibb.co/KVjvRGY/1003.png",
+		"service_rating": 5,
+		"service_rating_count": 719,
+		"service_price": 149
+	},
+	{
+		"id": 1004,
+		"service_title": "make yourself more safe by learning swimming with us",
+		"service_category": "swimming",
+		"service_duration": 7,
+		"service_students": 985,
+		"service_img": "https://i.ibb.co/Qf5t4wz/1004.png",
+		"service_rating": 3.5,
+		"service_rating_count": 751,
+		"service_price": 49
+	},
+	{
+		"id": 1005,
+		"service_title": "become a complete driver with passion and dignity",
+		"service_category": "driving",
+		"service_duration": 30,
+		"service_students": 751,
+		"service_img": "https://i.ibb.co/NNgSjRg/1005.png",
+		"service_rating": 3.5,
+		"service_rating_count": 250,
+		"service_price": 299
+	},
+	{
+		"id": 1006,
+		"service_title": "learn cycling with trust and safety in just few days",
+		"service_category": "cycling",
+		"service_duration": 10,
+		"service_students": 194,
+		"service_img": "https://i.ibb.co/NN6qMGW/1006.png",
+		"service_rating": 3.5,
+		"service_rating_count": 194,
+		"service_price": 99
+	},
+	{
+		"id": 1007,
+		"service_title": "let us help you learn riding motor-driven cycles",
+		"service_category": "riding",
+		"service_duration": 20,
+		"service_students": 751,
+		"service_img": "https://i.ibb.co/RCMvQdm/1007.png",
+		"service_rating": 3.5,
+		"service_rating_count": 500,
+		"service_price": 149
+	},
+	{
+		"id": 1008,
+		"service_title": "make yourself more safe by learning swimming with us",
+		"service_category": "swimming",
+		"service_duration": 7,
+		"service_students": 400,
+		"service_img": "https://i.ibb.co/b1dyW0k/1008.png",
+		"service_rating": 5,
+		"service_rating_count": 751,
+		"service_price": 49
+	},
+	{
+		"id": 1009,
+		"service_title": "become a complete driver with passion and dignity",
+		"service_category": "driving",
+		"service_duration": 30,
+		"service_students": 851,
+		"service_img": "https://i.ibb.co/JdmLLLM/1009.png",
+		"service_rating": 3.5,
+		"service_rating_count": 194,
+		"service_price": 299
+	},
+	{
+		"id": 1010,
+		"service_title": "learn cycling with trust and safety in just few days",
+		"service_category": "cycling",
+		"service_duration": 10,
+		"service_students": 400,
+		"service_img": "https://i.ibb.co/fYZqYGd/1010.png",
+		"service_rating": 4.5,
+		"service_rating_count": 400,
+		"service_price": 99
+	}
+]
