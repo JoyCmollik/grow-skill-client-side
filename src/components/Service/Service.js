@@ -72,7 +72,7 @@ const Service = (props) => {
 							size={24}
 							activeColor='#ffd700'
 						/>
-						<span>{service_rating_count}</span>
+						<span>({service_rating_count})</span>
 					</p>
 					<Link to='/services'>
 						<button className='bg-primary rounded-full px-3 py-2 text-white'>

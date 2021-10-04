@@ -21,7 +21,7 @@ const Blogs = () => {
 	}, [blogs]);
 
 	return (
-		<div className='bg-lighter pt-28'>
+		<div className='bg-lighter pt-28 pb-10'>
 			<div className='container mx-auto pb-5 space-y-5 lg:space-y-20'>
 				<Title
 					subTitle='Blogs'

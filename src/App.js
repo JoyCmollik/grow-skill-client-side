@@ -8,6 +8,7 @@ import Services from './components/Services/Services';
 import Blogs from './components/Blogs/Blogs';
 import NotFound from './components/NotFound/NotFound';
 import Cart from './components/Cart/Cart';
+import Footer from './components/Footer/Footer';
 
 function App() {
 	return (
@@ -37,6 +38,7 @@ function App() {
 						<NotFound />
 					</Route>
 				</Switch>
+				<Footer />
 			</Router>
 		</div>
 	);
