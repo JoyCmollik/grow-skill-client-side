@@ -19,8 +19,7 @@ const Service = (props) => {
 		service_students,
 		service_title,
 	} = props.service;
-
-	console.log(service_students);
+	const { handleService } = props;
 
 	return (
 		<article
@@ -48,10 +47,12 @@ const Service = (props) => {
 				{/* third part */}
 				<div className='flex justify-between items-center border-b-2 border-light pb-2'>
 					<p className='text-base text-gray-500'>
-						<FontAwesomeIcon
-							icon={faCalendarAlt}
-							className='mr-2'
-						/>
+						<span>
+							<FontAwesomeIcon
+								icon={faCalendarAlt}
+								className='mr-2'
+							/>
+						</span>
 						{service_duration} days
 					</p>
 					<p className='text-base text-gray-500'>
@@ -62,7 +63,7 @@ const Service = (props) => {
 
 				{/* fourth part */}
 				<div className='flex justify-between items-center pt-2'>
-					<p className='text-base text-gray-500 flex items-center space-x-1'>
+					<div className='text-base text-gray-500 flex items-center space-x-1'>
 						<span>{service_rating}</span>
 						<ReactStars
 							count={5}
@@ -73,12 +74,15 @@ const Service = (props) => {
 							activeColor='#ffd700'
 						/>
 						<span>({service_rating_count})</span>
-					</p>
-					<Link to='/services'>
-						<button className='bg-primary rounded-full px-3 py-2 text-white'>
-							<FontAwesomeIcon icon={faArrowRight} />
-						</button>
-					</Link>
+					</div>
+
+					<button
+						onClick={() => handleService(props.service)}
+						className='bg-primary rounded-xl px-3 py-2 text-white'
+					>
+						<span>Enroll </span>
+						<FontAwesomeIcon icon={faArrowRight} />
+					</button>
 				</div>
 			</div>
 		</article>

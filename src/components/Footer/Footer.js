@@ -44,25 +44,24 @@ const Footer = () => {
 						<p>Dhaka, Bangladesh</p>
 					</div>
 				</div>
-				<p className='text-center py-2'>
-					<small>
-						Developed by{' '}
-						<a
-							className='hover:text-brand'
-							href='https://github.com/XoyCmollik'
-						>
-							Joy C Mollik{' '}
-						</a>{' '}
-						| A{' '}
-						<a
-							className='hover:text-brand'
-							href='https://web.programming-hero.com/'
-						>
-							Programing Hero
-						</a>{' '}
-						Learner
-					</small>
-				</p>
+
+				<small className='block text-center py-2'>
+					Developed by{' '}
+					<a
+						className='hover:text-brand'
+						href='https://github.com/XoyCmollik'
+					>
+						Joy C Mollik{' '}
+					</a>{' '}
+					| A{' '}
+					<a
+						className='hover:text-brand'
+						href='https://web.programming-hero.com/'
+					>
+						Programing Hero
+					</a>{' '}
+					Learner
+				</small>
 			</div>
 		</footer>
 	);

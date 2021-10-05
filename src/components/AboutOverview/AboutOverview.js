@@ -1,4 +1,9 @@
-import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
+import {
+	faCheckCircle,
+	faUser,
+	faUserCircle,
+} from '@fortawesome/free-regular-svg-icons';
+import { faUserFriends, faUsers } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import aboutImg1 from '../../images/about-img.jpg';
@@ -21,8 +26,8 @@ const AboutOverview = () => {
 						src={aboutImg2}
 						alt='cycling'
 					/>
-					<p className='text-xs lg:text-sm absolute top-20 -left-28 transform rotate-90'>
-						<span className='font-semibold'>5000+</span> customer
+					<p className='text-gray-500 text-xs lg:text-sm absolute top-20 -left-28 transform rotate-90'>
+						<span className='font-semibold'>1000+</span> customer
 						reviews.
 					</p>
 				</div>
