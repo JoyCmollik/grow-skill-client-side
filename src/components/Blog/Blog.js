@@ -14,7 +14,7 @@ const Blog = (props) => {
 
 	return (
 		<article
-			className='flex flex-col justify-between bg-white rounded-lg shadow-lg'
+			className='flex flex-col justify-between bg-white rounded-lg shadow hover:shadow-lg transition duration-200 cursor-pointer'
 			style={{ width: '380px', height: '100%' }}
 		>
 			<div>

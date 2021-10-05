@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavLinks = () => {
 	return (
-		<nav className='flex items-center lg:space-x-4'>
+		<nav className='hidden md:flex items-center lg:space-x-4'>
 			<NavLink
 				activeClassName='text-brand border-brand'
 				exact
@@ -17,7 +17,7 @@ const NavLinks = () => {
 				to='/about'
 				className='px-2 py-1 hover:text-primary transition-colors duration-200 border-b border-transparent'
 			>
-				About Us
+				About us
 			</NavLink>
 			<NavLink
 				activeClassName='text-brand border-brand'

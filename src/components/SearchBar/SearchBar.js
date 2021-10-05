@@ -4,7 +4,7 @@ import React from 'react';
 
 const SearchBar = () => {
 	return (
-		<div className='px-5 py-3 rounded flex items-center bg-white'>
+		<div className='hidden lg:flex px-5 py-3 rounded items-center bg-white'>
 			<div className='flex items-center space-x-2 pr-2 text-gray-400 focus-within:text-gray-900'>
 				<FontAwesomeIcon icon={faSearch} />
 				<input

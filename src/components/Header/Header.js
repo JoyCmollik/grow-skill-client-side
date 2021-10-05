@@ -7,7 +7,7 @@ import SearchBar from '../SearchBar/SearchBar';
 
 const Header = () => {
 	return (
-		<div className='bg-light fixed w-full'>
+		<div className='bg-light fixed w-full z-50'>
 			<header className='py-4 container mx-auto flex justify-between items-center'>
 				{/* header left */}
 				<div className='flex items-center'>

@@ -26,14 +26,14 @@ const ServicesDemo = () => {
 							from us.'
 					/>
 					<Link to='/services'>
-						<button className='text-lg text-primary'>
+						<button className='hidden md:block text-lg text-primary'>
 							See All
 						</button>
 					</Link>
 				</div>
 
 				{/* content */}
-				<div className='grid grid-cols-4 place-items-center gap-4 pt-10'>
+				<div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center gap-4 pt-10'>
 					{filteredServices &&
 						filteredServices.map((service) => (
 							<Service key={service.id} service={service} />

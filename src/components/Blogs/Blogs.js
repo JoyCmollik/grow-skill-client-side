@@ -29,7 +29,7 @@ const Blogs = () => {
 				/>
 
 				<div className='grid grid-cols-12 gap-4'>
-					<div className='col-span-12 lg:col-span-8'>
+					<div className='col-span-12 xl:col-span-8'>
 						<div className='grid grid-cols-1 md:grid-cols-2 place-items-center lg:place-items-end gap-8 lg:px-20'>
 							{blogs &&
 								blogs.map((blog) => (
@@ -37,7 +37,7 @@ const Blogs = () => {
 								))}
 						</div>
 					</div>
-					<div className='col-span-12 lg:col-span-4'>
+					<div className='col-span-12 xl:col-span-4'>
 						<div className='space-y-8'>
 							<h4 className='text-xl'>Recent Blogs</h4>
 							<div className='space-y-4'>

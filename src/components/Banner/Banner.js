@@ -5,7 +5,7 @@ import bannerBg from '../../images/banner-bg.svg';
 const Banner = () => {
 	return (
 		<div className='bg-light h-screen flex items-center'>
-			<div className='container mx-auto grid grid-cols-2 justify-between items-center'>
+			<div className='container p-2 md:p-0 space-y-4 md:space-y-0 mx-auto grid lg:grid-cols-2 justify-between items-center'>
 				{/* left banner */}
 				<div className='space-y-4'>
 					<h1 className='text-4xl font-light capitalize text-brand'>
@@ -25,7 +25,7 @@ const Banner = () => {
 					<img
 						src={bannerBg}
 						alt='pics'
-						className='w-5/6 object-cover rounded-tl-3xl rounded-tr rounded-br-3xl rounded-bl'
+						className='w-auto object-cover rounded-tl-3xl rounded-tr rounded-br-3xl rounded-bl mx-auto'
 					/>
 				</div>
 			</div>
